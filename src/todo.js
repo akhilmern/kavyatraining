@@ -8,16 +8,8 @@ const Todo = () => {
     }
 
 
-
-
-
-
-
-
     return (  
-        <input value={list} onChange={(e)=>thingsToDo(e)}
-
-
+        <input value={list} onChange={(e)=>thingsToDo(e)}/>
     );
 }
  
