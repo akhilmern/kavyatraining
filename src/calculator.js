@@ -1,15 +1,17 @@
 import { useState } from "react";
 import React from "react";
+
 const Calculator = () => {
+
+
+
 const[cal,setCal]=useState("")
+
 const solve=(a)=>{
 setCal(cal+a)
-
 }
 
-
-
-const Erase=()=>{
+const erase=()=>{
     
     console.log(cal)
     const updatedValue=cal.slice(0,cal.length-1)
@@ -25,12 +27,7 @@ if(cal.length===1){
 const result=()=>{
     const output=eval(cal)
     setCal(output)
-
-
-
 }
-
-
 
 
 
@@ -64,7 +61,7 @@ const result=()=>{
       </div>
       <div>
         <button onClick={() => result()}>=</button>
-        <button onClick={() => Erase()}>Delete</button>
+        <button onClick={() => erase()}>Delete</button>
       </div>
     </div>
   );

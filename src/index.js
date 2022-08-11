@@ -7,7 +7,11 @@ import './index.css';
 // import New1 from './new1';
 // import Calculator from './calculator';
 // import Table from './table';
+// import Interview from './interview';
 import Todo from './todo';
+// import Cal from './cal,table,todo';
+// import Try1 from './Try1'
+// import Calc from './calc';
 
 
 
@@ -21,8 +25,21 @@ root.render(
     {/* <New1/> */}
     {/* <Table/> */}
     <Todo/>
-  </React.StrictMode>
+    {/* <Cal/> */}
+    {/* <Calc/> */}
+    {/* <Interview/> */}
+    
+    
 
+
+
+
+
+
+    
+  </React.StrictMode>
+  
+ 
 );
 
 // If you want to start measuring performance in your app, pass a function
